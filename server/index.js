@@ -11,6 +11,13 @@ const cors = require("cors");
 
 dotenv.config();
 app.use(cors());
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', 'https://vendre-rose.vercel.app');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  next();
+});
+
 const port = 2000;
 mongoose.set("strictQuery", true);
 
