@@ -18,7 +18,7 @@ app.use((req, res, next) => {
   next();
 });
 
-const port = 2000;
+const port = process.env.PORT || 2000;
 mongoose.set("strictQuery", true);
 
 mongoose
@@ -35,6 +35,11 @@ mongoose
   });
 
 app.use(express.json());
+
+// Test route
+app.get('/',(req,res)=>{
+  res.send("<h1>This is Vendre backend.</h1>")
+})
 
 app.use("/server/auth", authRoute);
 app.use("/server/users", userRoutes);
