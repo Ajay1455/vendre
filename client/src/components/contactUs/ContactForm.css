@@ -1,0 +1,84 @@
+.contact-form-container {
+  margin: 2rem auto;
+  border-radius: 4px;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: left;
+  height: 80%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg-image {
+  background-image: url("../images//Header_img.png");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contacth2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  border: 2px solid white;
+  padding: 10px 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.contactlabel {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputTextarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.Formbtn {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Formbtn:hover {
+  background-color: white;
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
+}
+
+@media (max-width: 500px) {
+  .contact-form-container {
+    max-width: 100%;
+    margin-top: 60px;
+  }
+}

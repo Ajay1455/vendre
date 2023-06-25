@@ -1,0 +1,56 @@
+.confirmation-container {
+  position: absolute;
+  margin: 40px auto;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-content: center;
+}
+
+.confirmation-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.confirmation-subtitle {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+}
+
+.order-details-title {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.order-items {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.order-items li {
+  margin-bottom: 10px;
+}
+
+.continue-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.continue-button:hover {
+  background-color: #ff6666;
+}

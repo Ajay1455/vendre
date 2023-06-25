@@ -1,0 +1,74 @@
+.base {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  #innerBox {
+    padding: 20px;
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid white;
+  }
+  
+  .h1 {
+    font-family: "Clicker Script", cursive;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(43, 128, 120);
+  }
+  
+  #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+  }
+  
+  .loginInput {
+    height: 30px;
+    width: 300px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+  
+  .loginbtn {
+    width: 100px;
+    height: 40px;
+  }
+  
+  span {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #innerBox {
+      width: 80%;
+    }
+  
+    .loginInput .loginbtn{
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #innerBox {
+      width: 90%;
+    }
+  }
+  
