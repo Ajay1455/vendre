@@ -7,8 +7,10 @@ const userRoutes= require("./routes/userRoutes");
 const productRoutes = require("./routes/productRoutes")
 const cartRoutes =require('./routes/cartRoutes');
 const sellerRoutes =require('./routes/sellerRoutes')
+const cors = require("cors");
 
 dotenv.config();
+app.use(cors());
 const port = 2000;
 mongoose.set("strictQuery", true);
 
