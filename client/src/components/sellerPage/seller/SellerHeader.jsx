@@ -7,7 +7,7 @@ function SellerHeader() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
-    fetch("/sellers")
+    fetch("https://vendrebackend.vercel.app/server/sellers")
       .then((res) => {
         return res.json();
       })
