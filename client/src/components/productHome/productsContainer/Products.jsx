@@ -15,7 +15,7 @@ function Products({ onAdd }) {
       setProductData(searchResults);
       setLoading(false);
     } else {
-      fetch("/products")
+      fetch("https://vendrebackend.vercel.app/server/products")
         .then((res) => res.json())
         .then((data) => {
           setProductData(data);
