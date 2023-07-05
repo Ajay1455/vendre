@@ -58,7 +58,7 @@ function App() {
   const onAdd = async (product) => {
     // addToCartAPI(user._id, product);
     try {
-      await axios.post(`/users/${user._id}/cart`, product);
+      await axios.post(`https://vendrebackend.vercel.app/server/users/${user._id}/cart`, product);
       console.log("Added");
     } catch (error) {
       console.log(error);
@@ -68,7 +68,7 @@ function App() {
   const onUpdate = async (cart, quantity) => {
     // updateCartItemQuantity(user._id, product._id, quantity)
     try {
-      await axios.patch(`/users/${user._id}/cart`, {
+      await axios.patch(`https://vendrebackend.vercel.app/server/users/${user._id}/cart`, {
         quantity,
         cartId: cart._id,
       });
@@ -78,7 +78,7 @@ function App() {
   const onRemove = async (cartItemId) => {
     // removeFromCartAPI(user._id, productId);
     try {
-      await axios.delete(`users/${user._id}/cart/${cartItemId}`);
+      await axios.delete(`https://vendrebackend.vercel.app/server/users/${user._id}/cart/${cartItemId}`);
     } catch (error) {}
   };
 
