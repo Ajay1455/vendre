@@ -84,7 +84,7 @@ const ReviewBox = () => {
   const [reviews, setReviews] = useState([]);
 
   useLayoutEffect(() => {
-    fetch("/products/reviews")
+    fetch("https://vendrebackend.vercel.app/server/products/reviews")
       .then((res) => res.json())
       .then((data) => {
         setReviews(data);
