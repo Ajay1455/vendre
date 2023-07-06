@@ -42,7 +42,7 @@ function App() {
 
   useLayoutEffect(() => {
     if (user) {
-      fetch(`/users/${user._id}/cart`)
+      fetch(`https://vendrebackend.vercel.app/server/users/${user._id}/cart`)
         .then((res) => {
           return res.json();
         })
