@@ -12,7 +12,7 @@ function ProductContainer() {
     const selectedCategory = document.getElementById("Categories").value;
     const query = searchQuery || selectedCategory;
 
-    fetch(`/products/search?q=${query}`)
+    fetch(`https://vendrebackend.vercel.app/server/products/search?q=${query}`)
       .then((res) => res.json())
       .then((data) => {
         updateSearchResults(data);
