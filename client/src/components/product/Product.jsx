@@ -47,7 +47,7 @@ const Product = ({ onAdd }) => {
 
     const productId = product._id;
 
-      axios.post(`/products/search/${productId}/reviews`, reviewData)
+      axios.post(`https://vendrebackend.vercel.app/server/products/search/${productId}/reviews`, reviewData)
       .then((response) => {
         const newReview = response.data;
         setProduct(newReview);
