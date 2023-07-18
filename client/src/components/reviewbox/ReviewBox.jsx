@@ -85,7 +85,7 @@ const ReviewBox = () => {
 
   useLayoutEffect(() => {
     fetch("https://vendrebackend.vercel.app/server/products/reviews")
-      .then((res) => res.json())
+      .then((res) => return res.json())
       .then((data) => {
         setReviews(data);
       })
