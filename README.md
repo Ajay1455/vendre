@@ -4,7 +4,7 @@ This project is an e-commerce website built using the MERN stack (MongoDB, Expre
 
 ## Live Website
 
-The website is live and can be accessed at [https://vendre-rose.vercel.app/](https://vendre-rose.vercel.app).
+The website is live and can be accessed at [https://vendre-rose.vercel.app](https://vendre-rose.vercel.app).
 
 ## Screenshots
 
