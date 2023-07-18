@@ -9,13 +9,13 @@ The website is live and can be accessed at [https://vendre-rose.vercel.app/](htt
 ## Screenshots
 
 ### Home page
-![Home page](https://i.postimg.cc/qMWVvJxf/Screenshot-637.png)
+![Home page](https://i.postimg.cc/pVsq74f3/Screenshot-610.png)
 
 ### Product page
-![Product page](https://i.postimg.cc/7LfxQs9D/Screenshot-639.png)
+![Product page](https://i.postimg.cc/DZBd94X1/Screenshot-613.png)
 
 ### Seller profile page
-![Seller profile page](https://i.postimg.cc/P5v331D9/Screenshot-638.png)
+![Seller profile page](https://i.postimg.cc/SsNcfQvR/Screenshot-633.png)
 
 ## Features
 
