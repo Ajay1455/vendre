@@ -22,7 +22,6 @@ function Products({ onAdd }) {
           setLoading(false);
         })
         .catch((error) => {
-          console.log("Error:", error);
           setLoading(false);
         });
     }
