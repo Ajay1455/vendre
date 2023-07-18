@@ -38,10 +38,3 @@ The website is live and can be accessed at [https://vendre-rose.vercel.app/](htt
 
 - Node.js installed
 - MongoDB set up and running
-
-### Installation
-
-1. Clone the repository:
-
-   ```shell
-   git clone https://github.com/Ajay1455/Ecommerce.git
