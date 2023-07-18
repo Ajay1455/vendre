@@ -2,9 +2,19 @@
 
 This project is an e-commerce website built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to buy and sell products, follow sellers, and manage seller profiles with an Instagram-inspired design.
 
+
 ## Live Website
 
 The website is live and can be accessed at [https://vendre-rose.vercel.app](https://vendre-rose.vercel.app).
+
+
+## Login Credentials
+
+To log in to the website, please use the following credentials:
+
+- Email: ajay@gmail.com
+- Password: 12345678
+
 
 ## Screenshots
 
