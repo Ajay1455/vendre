@@ -11,6 +11,7 @@ import './ShowCase.css'
       }).then((data)=>{
         setProducts(data);
       }).catch((error)=>{
+        console.log(error);
         return(
           <h1>Facing some issue regarding database</h1>
         )
